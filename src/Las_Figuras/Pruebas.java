@@ -41,6 +41,8 @@ public class Pruebas {
         System.out.println("Areas");
         System.out.println("El area del circulo con radio de: "+c_1.getRadio()+
                 " es: "+c_1.calcularArea());
+        
+        System.out.println("La respúesta en tu corazón");
        
     }
     
