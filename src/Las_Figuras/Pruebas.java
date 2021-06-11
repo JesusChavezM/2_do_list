@@ -16,6 +16,7 @@ public class Pruebas {
      */
     public static void main(String[] args) {
         //se crea el primer objeto para la clase rectangulo
+        DecimalFormal formato = new DecimalFormal(0.00);
         Rectangulo r_1 = new Rectangulo(2.0, 4.0);
 
         System.out.println("Rectangulos");
@@ -40,7 +41,7 @@ public class Pruebas {
         //se muestra el area del circulo
         System.out.println("Areas");
         System.out.println("El area del circulo con radio de: " + c_1.getRadio()
-                + " es: " + c_1.calcularArea());
+                + " es: " +formato.format(c_1.calcularArea()));
 
         System.out.println("La respúesta en tu corazón");
 
