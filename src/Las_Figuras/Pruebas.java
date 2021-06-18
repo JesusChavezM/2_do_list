@@ -5,6 +5,8 @@
  */
 package Las_Figuras;
 
+import java.text.DecimalFormat;
+
 /**
  *
  * @author Jesus Chavez
@@ -16,7 +18,7 @@ public class Pruebas {
      */
     public static void main(String[] args) {
         //se crea el primer objeto para la clase rectangulo
-        DecimalFormal formato = new DecimalFormal(0.00);
+        DecimalFormat formato = new DecimalFormat();
         Rectangulo r_1 = new Rectangulo(2.0, 4.0);
 
         System.out.println("Rectangulos");
